@@ -1,0 +1,218 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+body {
+  margin: 0px;
+  font-family: "Montserrat-Bold";}
+
+span {
+  position: relative;
+  top: 4%;
+  right: 5%;
+}
+
+/* ----------------------------------------------------- */
+/* navbar */
+/* ----------------------------------------------------- */
+.navbar {
+  height: 15%;
+  /* font-family: "Montserrat-Bold";} */
+  .navbar-brand{
+    font-weight: 600;
+    font-size: 1rem;
+    /* margin-top: 2%; */
+}
+.btext{
+  margin-top: 2%;
+
+}
+ #navbarText{
+   margin-top: 2%;
+     font-size: 1rem;
+ }
+
+ .align-text-top{
+   height: 80px;
+   width: 80px;
+ }
+
+
+/* ===================================================================== */
+/* about */
+/* =============================================================================== */
+
+.white-section{
+  margin-top: 10%;
+}
+body {
+  /* font-family: "Montserrat"; */
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  /* font-family: "Montserrat-Bold"; */
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.card{
+  padding:30px;
+  border:2px solid #595377;
+
+}
+.teamintro-col{
+  margin: 4%;
+}
+.card-image-top{
+  width:60%;
+  position: relative;
+  left: 20%;
+}
+#teamintro {
+  padding: 5%;
+  /* margin-top: 10%; */
+}
+.name{
+  font-size: 1.4rem;
+}
+.position{
+  font-size: 0.95rem;
+/* font-weight: 300 */
+    color: darkgrey;
+/* margin-block-start: 0em; */
+}
+.sr{
+  width: 140%;
+  /* margin-right: 15%; */
+  position: relative;
+  right: 18%;
+}
+/* .button{
+  color: #393e46;
+background: #f6f5f5;
+border-color: #f6f5f5;
+margin-left: 20%;
+} */
+.row{
+  margin-top: 7%;
+}
+
+.modal-body{
+  background-color: #a9a9a9;
+  color: white;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  /* margin-right: 2%; */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* .vmg{
+  margin: 7% 5%;
+}
+.vmgp{
+  color: darkgrey;
+  margin-top: 10%;
+}
+.vmgp1{
+  margin-top: 17%;
+}
+.imgvalues{
+  width:350px;
+} */
+ @media only screen and (max-width: 980px) {
+  .aboutus{
+    top: 20%;
+  }
+  .card{
+    margin-left: 15%;
+  }
+  .last{
+     margin-left: 90%;
+  }
+  .modal-dialog{
+    top:40%;
+  }
+  .first{
+    top:1%;
+  }
+}
+
+
+ /* ========================================================================== */
+ /* @media */
+ /* =========================================================================== */
+
+
+ @media screen and (max-width: 1024px) {
+   .navbar {
+     height: auto;
+
+   }
+   .btext{
+     font-size: 1.5rem;
+   }
+   .nav-item{
+     font-size: 2rem;
+   }
+   .navbar-text{
+       font-size: 2rem;
+       position: relative;
+       right: 0%;
+   }
+   .align-text-top{
+     height: 100px;
+     width: 100px;
+   }
+   .heading1{
+     margin-left: 28%;
+   }
+
+
+ }
+
+
+
+ /* ------------------------------------------------------ */
+ /* footer */
+ /* ------------------------------------------------------ */
+ #footer {
+ text-align: center;
+ padding-top: 10px;
+ margin-top: 10px;
+ margin-bottom: -50px;
+ padding-bottom: 0.1rem;
+ background-color: #efefef;
+ color: black;
+
+}
+.footer-text{
+ color: black;
+ text-align: center;
+}
+.copyright{
+ margin-top: -17px;
+padding-top: 2%;
+}
+.social-icon {
+ margin-left: 5px;
+ margin-right: 5px;
+ margin-bottom: 5px;
+ margin-top: 0px;
+}
